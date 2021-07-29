@@ -1,77 +1,263 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/reset.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
 
-<body>
+  <body>
     <header class="header">
-        <div class="header__menu">
-            <span class="header__burger"></span>
-        </div>
-        <div class="header__search">
-            <div class="header__search-ikon">
-                <img src="img/search_icon.png" alt="Search">
-                <input type="search" class="header__input">
-            </div>
-        </div>
+      <div class="header__button">
+        <span class="header__burger"></span>
+      </div>
+      <nav class="header__menu">
+        <ul class="header__list">
+          <li class="header__items">
+            <a href="" class="header__link">Menu item 1</a>
+          </li>
+          <li class="header__items">
+            <a href="" class="header__link">Menu item 2</a>
+          </li>
+          <li class="header__items">
+            <a href="" class="header__link">Menu item 3</a>
+          </li>
+          <li class="header__items">
+            <a href="" class="header__link">Menu item 4</a>
+          </li>
+          <li class="header__items">
+            <a href="" class="header__link">Menu item 5</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__search">
+        <form class="header__form">
+          <input type="search" class="header__input" />
+          <button class="header__search-ikon">
+            <img src="img/search_icon.png" alt="Search" />
+          </button>
+          <span class="search__icon">
+            <img src="img/search_icon.png" alt="Search" />
+          </span>
+        </form>
+      </div>
     </header>
     <div class="content">
-        <div class="content__inner">
-            <div class="content__body">
-                <div class="content__item image-group-1">
-                    <img src="img/olen.png" alt="">
-                </div>
-                <div class="content__item image-group-1">
-                    <img src="img/mountain.png" alt="">
-                </div>
-                <div class="content__item image-group-2">
-                    <img src="img/pfoto_5.png" alt="">
-                </div>
-                <div class="content__item image-group-2">
-                    <img src="img/fruit.png" alt="">
-                </div>
-                <div class="content__item image-group-3">
-                    <img src="img/pfoto_4.png" alt="">
-                </div>
-                <div class="content__item image-group-4">
-                    <img src="img/pfoto_3.png" alt="">
-                </div>
-                <div class="content__item image-group-5">
-                    <img src="img/pfoto_2.png" alt="">
-                </div>
-                <div class="content__item image-group-6">
-                    <img src="img/under_water.png" alt="">
-                </div>
-                <div class="content__item image-group-7">
-                    <img src="img/Bar.png" alt="">
-                </div>
-                <div class="content__item image-group-8">
-                    <img src="img/turtle.png" alt="">
-                </div>
-                <div class="content__item image-group-3">
-                    <img src="img/whale.png" alt="">
-                </div>
-                <div class="content__item image-group-9">
-                    <img src="img/boat.png" alt="">
-                </div>
-                <div class="content__item image-group-10">
-                    <img src="img/bungalo.png" alt="">
-                </div>
-                <div class="content__item image-group-11">
-                    <img src="img/pfoto_1.png" alt="">
-                </div>
+      <div class="content__inner">
+        <div class="content__body">
+          <div class="content_items">
+            <div class="content__item image-group-1">
+              <div class="content__icon">
+                <img src="img/pfoto_icon.png" alt="" />
+              </div>
+              <div class="content__image">
+                <img src="img/olen.png" alt="" />
+              </div>
             </div>
+            <div class="content__item image-group-1">
+              <div class="content__icon">
+                <img src="img/pfoto_icon.png" alt="" />
+              </div>
+              <div class="content__image">
+                <img src="img/mountain.png" alt="" />
+              </div>
+            </div>
+            <div class="content__item image-group-2">
+              <div class="content__info">
+                <h4>eat, pray & love</h4>
+                <h2>Food Ninja</h2>
+                <p>Everybody likes to eat.</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/fruit.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="content_items">
+            <div class="content__item image-group-2">
+              <div class="content__info">
+                <h4>life in the countryside</h4>
+                <h2>Back on the countryside</h2>
+                <p>It feels more like home, than the city,</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/pfoto_5.png" alt="" />
+              </div>
+            </div>
+
+            <div class="content__item">
+              <div class="content__info">
+                <h4>keep exploring</h4>
+                <h2>Travel & Explore</h2>
+                <p>I dream of travelling the stars</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/pfoto_4.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="content__item">
+            <div class="content__info">
+              <h4>explore the unknown</h4>
+              <h2>I can see the sun shining like a diamond up high</h2>
+              <p>The shells I find along the shore</p>
+            </div>
+            <div class="content__button">
+              <a href="#">
+                <img src="img/arrow_img.png" alt="" />
+              </a>
+            </div>
+            <div class="content__image">
+              <img src="img/pfoto_3.png" alt="" />
+            </div>
+          </div>
+          <div class="content__item">
+            <div class="content__info">
+              <h4>sunset wishes</h4>
+              <h2>Sunset is a pretty thing, so bathed in mystery</h2>
+              <p>That fall so endlessly</p>
+            </div>
+            <div class="content__button">
+              <a href="#">
+                <img src="img/arrow_img.png" alt="" />
+              </a>
+            </div>
+            <div class="content__image">
+              <img src="img/pfoto_2.png" alt="" />
+            </div>
+          </div>
+          <div class="content_items">
+            <div class="content__item">
+              <div class="content__info">
+                <h4>Hidden Gem</h4>
+                <h2>Deserted island</h2>
+                <p>My heart is a deserted island, lost in a big ocean</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/under_water.png" alt="" />
+              </div>
+            </div>
+            <div class="content__item image-group-2">
+              <div class="content__icon">
+                <img src="img/pfoto_icon.png" alt="" />
+              </div>
+              <div class="content__image">
+                <img src="img/turtle.png" alt="" />
+              </div>
+            </div>
+            <div class="content__item image-group-2">
+              <div class="content__info">
+                <h4>experience nature</h4>
+                <h2>Learning to kayak</h2>
+                <p>Splish splash splish splash</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/boat.png" alt="" />
+              </div>
+            </div>
+          </div>
+          <div class="content_items">
+            <div class="content__item image-group-2">
+              <div class="content__info">
+                <h4>soul food</h4>
+                <h2>Soul food</h2>
+                <p>Nothin' like home cookin'</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/Bar.png" alt="" />
+              </div>
+            </div>
+
+            <div class="content__item">
+              <div class="content__icon">
+                <img src="img/pfoto_icon.png" alt="" />
+              </div>
+              <div class="content__image">
+                <img src="img/whale.png" alt="" />
+              </div>
+            </div>
+
+            <div class="content__item image-group-2">
+              <div class="content__info">
+                <h4>you & culture</h4>
+                <h2>Closer with culture</h2>
+                <p>Two cultures worlds apart</p>
+              </div>
+              <div class="content__button">
+                <a href="#">
+                  <img src="img/arrow_img.png" alt="" />
+                </a>
+              </div>
+              <div class="content__image">
+                <img src="img/bungalo.png" alt="" />
+              </div>
+            </div>
+          </div>
+
+          <div class="content__item">
+            <div class="content__info">
+              <h4>relax & enjoy life</h4>
+              <h2>Take a leave from regular life</h2>
+              <p>Go have some genuine fun</p>
+            </div>
+            <div class="content__button">
+              <a href="#">
+                <img src="img/arrow_img.png" alt="" />
+              </a>
+            </div>
+            <div class="content__image">
+              <img src="img/pfoto_1.png" alt="" />
+            </div>
+          </div>
         </div>
-    </div>
+      </div>
+    </div> 
+    <footer class="footer">
+      <div class="footer__load">
+        <img src="img/loader.png" alt="" />
+      </div>
+    </footer>
     <footer class="footer"></footer>
     <script src="js/main.js"></script>
-</body>
-
+  </body>
 </html>
