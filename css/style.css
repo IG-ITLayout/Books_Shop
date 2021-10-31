@@ -43,6 +43,10 @@ a {
   position: absolute;
   transform: translate(-180%, 35%);
   width: 100%;
+  max-width: 1370
+px
+;
+  overflow:auto;
   background-color: #2c333f;
   z-index: 1000;
   transition: all ease-in 0.5s;
